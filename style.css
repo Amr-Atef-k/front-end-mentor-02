@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(246,208,80);
+}
+
+main{
+    background-color: white;
+    border: 2px solid;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 510px;
+    width: 400px;
+    box-shadow: 10px 10px 0px 0px rgb(0, 0, 0);
+}
+
+main .photo {
+    padding: 30px;
+    border-radius: 40px;
+}
+
+.info{
+    padding: 0px 30px 0 30px;
+}
+
+.info .f{
+    background-color: rgb(246,208,80);
+    width: 73px;
+    height: 32px;
+    padding: 6px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.info .s , .l{
+    padding: 10px 10px 10px 0px;
+}
+
+.s-card{
+    padding: 3px 10px 10px 0px ;
+    display: flex;
+    align-items: center;
+}
+
+.s-card h4{
+    padding-left: 10px;
+}
+
+.s-card img {
+    height: 40px;
+    width: 40px;
+}
